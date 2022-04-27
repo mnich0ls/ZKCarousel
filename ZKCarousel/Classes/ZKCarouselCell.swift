@@ -28,7 +28,6 @@ public class ZKCarouselCell: UICollectionViewCell {
         iv.contentMode = .scaleAspectFill
         iv.backgroundColor = .clear
         iv.clipsToBounds = true
-        iv.addBlackGradientLayer(frame: bounds)
         iv.translatesAutoresizingMaskIntoConstraints = false
         return iv
     }()
